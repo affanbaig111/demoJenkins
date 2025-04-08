@@ -14,6 +14,7 @@ class DemoJenkinsApplicationTests {
 	@Test
 	void contextLoads() {
 		logger.info("test case executed");
+		logger.info("Test case executing  secound log statementgit ");
 
 		assertEquals(true,true);
 	}
