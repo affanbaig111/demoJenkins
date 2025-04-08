@@ -12,7 +12,7 @@ class DemoJenkinsApplicationTests {
 	public static Logger logger = Logger.getLogger(DemoJenkinsApplication.class.getName());
 
 	@Test
-	void contextLoads(int) {
+	void contextLoads() {
 		logger.info("test case executed");
 		logger.info("Test case executing  secound log statementgit ");
 
